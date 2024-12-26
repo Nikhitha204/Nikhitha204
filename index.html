@@ -1,0 +1,64 @@
+[18:07, 12/26/2024] Srujana: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>AYODHYA</h1>
+  </header>
+  <section id="gallery">
+    <div class="photo">
+      <img src="photo1.jpg" alt="Description of photo 1">
+      <p>"River Sarayu" :The sacred lifeline of Ayodhya.</p>
+    </div>
+    <div class="photo">
+      <img src="photo2.jpg" alt="Description of photo 2">
+      <p>"Kanak bhavan" - The Majestic Temple of Lord Ram in Ayodhya and Architectural Splendor.</p>
+    </div>
+    <div class="photo">
+      <img src="photo3.jpg" alt="Description of photo 3">
+      <p>The sight of clouds and trees surrounding a temple creates a serene and mystical atmosphere, enhancing the spiritual experience.</p>
+    </div>
+  </section>
+</body>
+</html>
+[18:09, 12/26/2024] Srujana: /* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+/* Gallery styling */
+#gallery {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center content horizontally */
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Individual photo styling */
+.photo {
+  margin: 20px 0; /* Add space between photos */
+  text-align: center;
+}
+
+.photo img {
+  width: 80%; /* Adjust image size to fit the container */
+  max-width: 600px; /* Prevent images from becoming too large */
+  height: auto;
+}
